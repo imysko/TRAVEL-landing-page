@@ -1,0 +1,292 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-family: NetflixSans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+/*--------------------------------------------------*/
+.wrapper {
+    min-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/*--------------------------------------------------*/
+._container {
+    max-width: 1680px;
+    margin: 0px auto;
+}
+
+/*--------------------------------------------------*/
+._img {
+    position: relative;
+}
+
+._img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+/*--------------------------------------------------*/
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 85px;
+    max-width: 1826px;
+
+    margin: 0 auto;
+    padding: 0px 47px;
+    box-sizing: content-box;
+
+    align-items: center;
+}
+
+.header_logo {
+    font-size: 32px;
+    font-family: Helvetica;
+    font-weight: 700;
+    color: white;
+}
+
+.header_menu {
+    margin: 0px 0px 0px 60px;
+}
+
+.menu_icon {
+    display: none;
+}
+
+@media (max-widht: 840px) {
+    .header_menu {}
+}
+
+@media (max-widht: 767px) {
+    .header_menu {}
+}
+
+@media (max-widht: 479px) {
+    .header_menu {}
+}
+
+.menu {
+    padding: 12px 0px;
+}
+
+.menu_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu_item {
+    margin: 0px;
+}
+
+.menu_item:not(:last-child) {
+    margin: 0px 24px 0px 0px;
+}
+
+.menu_item:last-child {
+    font-weight: 700;
+}
+
+.menu_link {
+    color: white;
+    line-height: 112.5%;
+}
+
+@media (max-widht: 479px) {
+    .menu_link {
+        font-size: 24px;
+    }
+}
+
+/*--------------------------------------------------*/
+.page {
+    flex: 1 1 auto;
+}
+
+.page_main-block {}
+
+/*--------------------------------------------------*/
+.main-block {
+    position: relative;
+}
+
+.main-block_background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.main-block_container {}
+
+.main-block_body {
+    padding: 85px 0px 259.82px 0px;
+    position: relative;
+    z-index: 2;
+}
+
+.main-block_body>*:not(:last-child) {
+    margin: 40px 0px 0px 0px;
+}
+
+.main-block_body>*:last-child {
+    margin: 32px 0px 0px 0px;
+}
+
+.main-block_title {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 115.3%;
+    color: #FFFFFF;
+    max-width: 759px;
+}
+
+.main-block_subtitle {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 115.6%;
+    color: #FFFFFF;
+}
+
+/*--------------------------------------------------*/
+.main-block_search-line {
+    padding: 8px 16px;
+}
+
+.search-line {
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+}
+
+.search_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search_item {
+    display: flex;
+    flex-direction: row;
+    padding: 12px 8px;
+}
+.search_item:first-child {
+    width: 378px;
+}
+
+.search_icon {
+    height: 20px;
+    width: 20px;
+    margin: 0px 8px;
+}
+
+.search_text {
+    line-height: 112.5%;
+    color: #FFFFFF
+}
+
+.search_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    padding: 12px 32px;
+}
+
+.search_button_text {
+    font-weight: 700;
+    line-height: 115%;
+    color: #2659C3;
+}
+
+/*--------------------------------------------------*/
+.main-block_categories {}
+
+.categories {
+    padding: 0px 0px 16px 0px;
+}
+
+.categories_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.categories_item {
+    height: 66px;
+    min-width: 70px;
+}
+
+.categories_link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: rgb(150, 150, 150);
+    line-height: 112.5%;
+}
+
+.categories_icon {
+    height: 32px;
+    width: 32px;
+    margin: 0px 0px 16px 0px;
+}
+
+/*--------------------------------------------------*/
+.footer {}
