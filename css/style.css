@@ -126,12 +126,15 @@ body {
         padding: 8px 24px 0px 24px;
         align-items: center;
     }
+
     .menu_icon {
         display: block;
     }
+
     .header_menu {
         display: none;
     }
+
     .header_logo {
         font-size: 24px;
         margin-left: auto;
@@ -187,32 +190,34 @@ body {
     z-index: 2;
 }
 
-.main-block_body > *:not(:last-child) {
+.main-block_body>*:not(:last-child) {
     margin: 40px 0px 0px 0px;
 }
 
-.main-block_body > *:last-child {
+.main-block_body>*:last-child {
     margin: 32px 0px 0px 0px;
 }
 
 @media (max-width: 947px) {
-    .main-block_background img{
+    .main-block_background img {
         object-position: 60%;
     }
 }
 
 @media (max-width: 767px) {
-    .main-block_background img{
+    .main-block_background img {
         object-position: 75%;
     }
+
     .main-block_body {
         padding: 34px 0px 50.5px 0px;
     }
-    .main-block_body > *:not(:last-child) {
+
+    .main-block_body>*:not(:last-child) {
         margin: 24px 0px 0px 0px;
     }
-    
-    .main-block_body > *:last-child {
+
+    .main-block_body>*:last-child {
         margin: 24px 0px 67px 0px;
     }
 }
@@ -238,7 +243,8 @@ body {
     .main-block_container {
         padding: 0px 60px;
     }
-    .main-block_title{
+
+    .main-block_title {
         font-size: 48px;
     }
 }
@@ -247,9 +253,11 @@ body {
     .main-block_container {
         padding: 0px 24px;
     }
-    .main-block_title{
+
+    .main-block_title {
         font-size: 32px;
     }
+
     .main-block_subtitle {
         font-size: 24px;
     }
@@ -280,6 +288,7 @@ body {
     align-items: center;
     padding: 12px 8px;
 }
+
 .search_item:first-child {
     width: 378px;
 }
@@ -349,6 +358,79 @@ body {
     height: 32px;
     width: 32px;
     margin: 0px 0px 16px 0px;
+}
+
+/*--------------------------------------------------*/
+.main-content {
+    position: relative;
+    margin-top: -204px;
+}
+
+.main-content>*:not(:last-child) {
+    margin: 0px 0px 72px 0px;
+}
+
+/*--------------------------------------------------*/
+.block-destinations {
+}
+
+.destinations {
+
+}
+
+.destinations_container {
+
+}
+
+.destinations_body>* {
+    padding: 0px 120px;
+}
+
+.destinations_title_black {
+    font-family: Helvetica;
+    font-weight: 700;
+    color: black;
+}
+.destinations_title_white {
+    font-family: Helvetica;
+    font-weight: 700;
+    color: white;
+}
+
+.destinations_items {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    flex-direction: row;
+    margin-top: 32px;
+}
+
+.destinations_items>*:not(:last-child) {
+    margin-right: 24px;
+} 
+.destinations_items>*:first-child {
+    margin-left: 6px;
+} 
+
+.destinations_card {
+    position: relative;
+}
+
+.destination_image {
+    height: 200px;
+    width: 310px;
+    border-radius: 8px;
+}
+
+.destination_title {
+    margin: 0px 0px 23px 24px;
+    bottom: 0;
+
+    position: absolute;
+    font-family: NetflixSans;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
 }
 
 /*--------------------------------------------------*/
