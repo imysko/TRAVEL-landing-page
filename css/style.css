@@ -362,6 +362,7 @@ body {
 .main-content {
     position: relative;
     margin-top: -204px;
+    margin: 0px 0px 140px 0px;
 }
 
 .main-content>*:not(:last-child) {
@@ -658,4 +659,152 @@ body {
 }
 
 /*--------------------------------------------------*/
-.footer {}
+.block-plan {
+
+}
+
+.block-plan {
+
+}
+
+.plan_container {
+    position: relative;
+    height: 395px;
+    padding: 0px 120px;
+}
+
+.plan_body {
+    position: absolute;
+    padding: 80px 0px 0px 80px;
+    z-index: 10;
+}
+
+.plan_body>*:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.plan_background {
+    border-radius: 24px;
+    object-position: center;
+}
+
+.plan_title {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 114%;
+    color: #FFFFFF;
+}
+
+.plan_description {
+    font-family: NetflixSans;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 128%;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+/*--------------------------------------------------*/
+.footer {
+    background: #141414;
+}
+
+.footer_container {
+    max-width: 1680px;
+    padding: 0px 120px;
+}
+
+.footer_body {
+    display: flex;
+    flex-direction: row;
+    padding: 42px 0px;
+    justify-content: space-between;
+}
+
+.footer_logo {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 115%;
+    color: white;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_content>*:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.block_references {
+    display: flex;
+    flex-direction: row;
+    padding-left: 7px;
+}
+
+.block_references>*:not(:last-child) {
+    margin-right: 164px;
+}
+
+.column_references {
+    display: flex;
+    flex-direction: column;
+}
+
+.column_references>*:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer_reference {
+    font-family: NetflixSans;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+
+    color: #808080;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text_link {
+    font-family: NetflixSans;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+
+    color: #808080;
+
+    padding: 10px 15px;
+    border: 1px solid #808080;
+}
+
+.block_icons {
+    align-content: center;
+    padding: 10px 0px 3px 0px;
+}
+
+.block_icons>*:not(:last-child) {
+    margin-right: 20px;
+}
+
+.icon_link {
+    height: 24px;
+    width: 24px;
+}
+
+.copyright {
+    font-family: Netflix Sans;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 127%;
+
+    color: #808080;
+    margin: 0px 0px 0px 0px;
+}
