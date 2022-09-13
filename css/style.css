@@ -312,9 +312,7 @@ body {
     background: #FFFFFF;
     border-radius: 32px;
     padding: 12px 32px;
-}
 
-.search_button_text {
     font-family: Helvetica;
     font-weight: 700;
     color: #2659C3;
@@ -370,6 +368,18 @@ body {
     margin: 0px 0px 72px 0px;
 }
 
+.main-content-title {
+    font-family: Helvetica;
+    font-weight: 700;
+    color: #000000;
+    line-height: 115%;
+    margin: 0px;
+}
+
+.main-content-title:first-child {
+    color: #FFFFFF;
+}
+
 /*--------------------------------------------------*/
 .block-destinations {
 }
@@ -382,6 +392,10 @@ body {
 
 }
 
+.destinations_body {
+
+}
+
 .destinations_body>* {
     padding: 0px 120px;
 }
@@ -390,11 +404,15 @@ body {
     font-family: Helvetica;
     font-weight: 700;
     color: black;
+    line-height: 115%;
+    margin: 0px;
 }
 .destinations_title_white {
     font-family: Helvetica;
     font-weight: 700;
     color: white;
+    line-height: 115%;
+    margin: 0px;
 }
 
 .destinations_items {
@@ -408,6 +426,7 @@ body {
 .destinations_items>*:not(:last-child) {
     margin-right: 24px;
 } 
+
 .destinations_items>*:first-child {
     margin-left: 6px;
 } 
@@ -431,6 +450,131 @@ body {
     font-weight: 500;
     font-size: 24px;
     color: white;
+}
+
+/*--------------------------------------------------*/
+.block-offers {
+
+}
+
+.offers {
+
+}
+
+.offers_container {
+
+}
+
+.offers_body {
+
+}
+
+.offers_body>* {
+    padding: 0px 120px;
+}
+
+.offers_title {
+    font-family: Helvetica;
+    font-weight: 700;
+    color: black;
+    line-height: 115%;
+    margin: 0px;
+}
+
+.offers_items {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    flex-direction: row;
+    margin-top: 16px;
+    margin-bottom: -16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.offers_items>*:not(:last-child) {
+    margin-right: 24px;
+}
+
+.offer_card {
+    display: flex;
+    flex-direction: row;
+    padding: 24px 16px;
+
+    box-shadow: 0px 4px 16px rgba(158, 158, 158, 0.25);
+    border-radius: 16px;
+}
+
+.offer_card>*:not(:last-child) {
+    margin-right: 24px;
+}
+
+.offer_image_background {
+    display: flex;
+    position: relative;
+    width: 310px;
+    height: 210px;
+}
+
+.offer_image {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+
+    border-radius: 21px;
+}
+
+.offer_content {
+    position: relative;
+    width: 322px;
+}
+
+.offer_subtitle {
+    margin-bottom: 4px;
+    font-family: NetflixSans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    
+    color: #000000;
+    opacity: 0.5;
+}
+
+.offer_title {
+    margin-bottom: 16px;
+    font-family: NetflixSans;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 129%;
+    color: #000000;
+}
+
+.offer_description {
+    margin-bottom: 16px;
+    font-family: NetflixSans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    
+    color: #000000;
+    opacity: 0.5;
+}
+
+.offer_button {
+    position: absolute;
+    background: #2659C3;
+    border-radius: 32px;
+    padding: 16px 32px;
+    bottom: 0;
+
+    font-family: NetflixSans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #FFFFFF;
 }
 
 /*--------------------------------------------------*/
